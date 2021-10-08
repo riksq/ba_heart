@@ -51,19 +51,19 @@ export default function Home(props) {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Answer the question</title>
-                <meta name="description" content="Answer the question" />
+                <title>Odgovori na pitanje</title>
+                <meta name="description" content="Odgovori na pitanje" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
             <main className={styles.main}>
                 <div>
                     <h2>
-                        You have blood pressure problems
+                        Imate problema sa krvnim pritiskom
                     </h2>
                 </div>
                 <div>
-                    <h3>Answer YES or NO</h3>
+                    <h3>Odgovorite sa DA ili NE</h3>
                  
                     <div>
                         <button
@@ -72,7 +72,7 @@ export default function Home(props) {
                             }}
                             style={bluecss}
                         >
-                            YES
+                            DA
                         </button>
                     </div>
                     <div>
@@ -82,13 +82,13 @@ export default function Home(props) {
                             }}
                             style={redcss}
                         >
-                            NO
+                            NE
                         </button>
                     </div>
                 </div>
             </main>
 
-            <footer className={styles.footer}>All rights reserved</footer>
+            <footer className={styles.footer}>Sva prava zadržana</footer>
         </div>
     );
 }
